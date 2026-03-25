@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import re
 
 app = Flask(__name__)
-client = Groq(api_key="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")  # 🔐 replace
+client = Groq(api_key="YOURS AI API KEY")  # 🔐 replace
 
 def extract_text_from_pdf(file):
     reader = PdfReader(file)
